@@ -58,6 +58,10 @@ console.log(0.1 + 0.7) // 0.7999999999999999
 console.log(safeAdd(0.1,0.7)) // 0.8 ✅
 ```
 
+## safeSubtract
+
+> Example
+
 ```typescript
 import { safeSubtract } from "safe-maths";
 
@@ -77,5 +81,17 @@ console.log(0.1 * 0.7) // 0.06999999999999999
 console.log(safeMultiply(0.1,0.7)) // 0.07 ✅
 ```
 
+## decimalCount
+Returns the number of decimal places of a number. i.e 1 if 1dp, 2 if 2dp and so on.
 
+> Example
+
+```typescript
+import { decimalCount } from "safe-maths";
+
+console.log(decimalCount(0.1)) // 1 
+console.log(decimalCount(0.01)) // 2
+console.log(decimalCount(0.001)) // 3 
+console.log(decimalCount(0.0001)) // 4 
+```
 
