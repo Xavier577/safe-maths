@@ -2,11 +2,12 @@
 
 utils for safe arithmetics around floating point numbers
 
-# Overview
+# Content
 
 - [Getting started](#getting-started)
 - [Issues](#issues)
 - [Installation](#installation)
+- [Functions](#functions)
 
 # Getting started
 
