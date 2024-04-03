@@ -8,6 +8,10 @@ utils for safe arithmetics around floating point numbers
 - [Issues](#issues)
 - [Installation](#installation)
 - [Functions](#functions)
+  - [safeAdd](#safeadd)
+  - [safeSubtract](#safesubtract)
+  - [safeMultiply](#safemultiply)
+  - [decimalCount](#decimalcount)
 
 # Getting started
 
