@@ -40,13 +40,13 @@ If any issue or bugs found while using SafeMaths do [open an issue](https://gith
 ### Using yarn
 
 ```
-$ yarn add safe-maths
+$ yarn add safe-mts
 ```
 
 ### Using npm
 
 ```
-$ npm install safe-maths
+$ npm install safe-mts
 ```
 
 # Functions
@@ -57,7 +57,7 @@ Takes two numbers and 'safely' adds them.
 > Example
 
 ```typescript
-import { safeAdd } from "safe-maths";
+import { safeAdd } from "safe-mts";
 
 console.log(0.1 + 0.7) // 0.7999999999999999
 console.log(safeAdd(0.1,0.7)) // 0.8 ✅
@@ -68,7 +68,7 @@ console.log(safeAdd(0.1,0.7)) // 0.8 ✅
 > Example
 
 ```typescript
-import { safeSubtract } from "safe-maths";
+import { safeSubtract } from "safe-mts";
 
 console.log(0.7 - 0.2) // 0.49999999999999994
 console.log(safeAdd(0.7,0.2)) // 0.5 ✅
@@ -80,7 +80,7 @@ Takes two numbers and 'safely' multiplies them.
 > Example
 
 ```typescript
-import { safeMultiply } from "safe-maths";
+import { safeMultiply } from "safe-mts";
 
 console.log(0.1 * 0.7) // 0.06999999999999999
 console.log(safeMultiply(0.1,0.7)) // 0.07 ✅
@@ -92,7 +92,7 @@ Returns the number of decimal places of a number. i.e 1 if 1dp, 2 if 2dp and so 
 > Example
 
 ```typescript
-import { decimalCount } from "safe-maths";
+import { decimalCount } from "safe-mts";
 
 console.log(decimalCount(0.1)) // 1 
 console.log(decimalCount(0.01)) // 2

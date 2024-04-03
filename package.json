@@ -1,5 +1,5 @@
 {
-  "name": "safe-maths",
+  "name": "safe-mts",
   "version": "0.0.1",
   "description": "Safe arithmetics around floating point numbers",
   "main": "lib/index",
@@ -9,7 +9,7 @@
   "homepage": "https://github.com/Xavier577/safe-maths#readme",
   "license": "MIT",
   "files": ["lib"],
-  "keywords": ["safe-maths", "safemaths", "safe_maths", "floating point", "arithmetic"],
+  "keywords": ["safe-mts","safe-maths","safemaths", "floating point", "arithmetic"],
   "bugs": {
     "url": "https://github.com/Xavier577/safe-maths/issues"
   },
