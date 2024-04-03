@@ -1,6 +1,6 @@
 {
   "name": "safe-mts",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Safe arithmetics around floating point numbers",
   "main": "lib/index",
   "types": "lib/index.d.ts",
