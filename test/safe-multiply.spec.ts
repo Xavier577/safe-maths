@@ -10,4 +10,9 @@ describe("SafeMultiply", () => {
     const result = safeMultiply(0.1, 0.05);
     expect(result).toEqual(0.005);
   });
+
+  it("should multiply 1 by 2 and get 2 exactly", () => {
+    const result = safeMultiply(1, 2);
+    expect(result).toEqual(2);
+  });
 });

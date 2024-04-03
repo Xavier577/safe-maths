@@ -1,12 +1,20 @@
 {
   "name": "safe-maths",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Safe arithmetics around floating point numbers",
-  "main": "index.js",
-  "repository": "https://github.com/Xavier577/safe-maths.git",
+  "main": "lib/index",
+  "types": "lib/index.d.ts",
   "author": "Joseph Tsegen <tsegstech10@gmail.com>",
+  "repository": "https://github.com/Xavier577/safe-maths.git",
+  "homepage": "https://github.com/Xavier577/safe-maths#readme",
   "license": "MIT",
+  "files": ["lib"],
+  "keywords": ["safe-maths", "safemaths", "safe_maths", "floating point", "arithmetic"],
+  "bugs": {
+    "url": "https://github.com/Xavier577/safe-maths/issues"
+  },
   "scripts": {
+    "deploy": "jest && tsc && npm publish",
     "build": "tsc",
     "test": "jest"
   },
