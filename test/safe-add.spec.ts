@@ -15,4 +15,14 @@ describe("SafeAdd", () => {
     const result = safeAdd(1, 2);
     expect(result).toEqual(3);
   });
+
+  it("should add 0.14 and 0.1 and get 0.24 exactly", () => {
+    const result = safeAdd(0.14, 0.1);
+    expect(result).toEqual(0.24);
+  });
+
+  it("should add 1e-14 and 0.1 and get 0.10000000000001 exactly", () => {
+    const result = safeAdd(0.1, 1e-14);
+    expect(result).toEqual(0.10000000000001);
+  });
 });

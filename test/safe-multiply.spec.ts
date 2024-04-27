@@ -15,4 +15,9 @@ describe("SafeMultiply", () => {
     const result = safeMultiply(1, 2);
     expect(result).toEqual(2);
   });
+
+  it("should multiply 0.14 by 100 and get 14 exactly", () => {
+    const result = safeMultiply(0.14, 100);
+    expect(result).toEqual(14);
+  });
 });
