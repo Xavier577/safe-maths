@@ -22,9 +22,9 @@
     "url": "https://github.com/Xavier577/safe-maths/issues"
   },
   "scripts": {
-    "deploy": "jest && tsc && npm publish",
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "prepublishOnly": "jest && tsc"
   },
   "devDependencies": {
     "@types/jest": "^28.1.1",
