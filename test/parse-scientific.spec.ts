@@ -1,4 +1,4 @@
-import { parseScientific } from "../src/utils/parse-scientific";
+import { parseScientific } from "../src";
 
 describe("ParseScientific", () => {
   it("should return 0.00000000000001 for 1e-14", () => {
