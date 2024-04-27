@@ -15,4 +15,9 @@ describe("DecimalCount", () => {
     const result = decimalCount(0.001);
     expect(result).toEqual(3);
   });
+
+  it("should return 14 for 1e-14", () => {
+    const result = decimalCount(1e-14);
+    expect(result).toEqual(14);
+  });
 });
